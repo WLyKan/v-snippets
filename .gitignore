@@ -1,0 +1,7 @@
+out
+node_modules
+.gitattributes
+.vscode-test/
+*.vsix
+*.log
+vsc-extension-quickstart.md

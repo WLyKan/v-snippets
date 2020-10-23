@@ -1,0 +1,67 @@
+{
+  "name": "v-snippets",
+  "displayName": "ES snippets",
+  "description": "the one es snippets extension for ES development",
+  "version": "1.0.1",
+  "publisher": "kingxbeta",
+  "icon": "./logo.png",
+  "keywords": [
+    "snippets",
+    "react",
+    "vue",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WLyKan/v-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:extension.snippetSearch"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts-snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "3.9.6",
+    "@types/vscode": "^1.45.0",
+    "@types/node": "^14.0.14"
+  }
+}
