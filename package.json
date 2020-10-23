@@ -4,7 +4,7 @@
   "description": "the one es snippets extension for ES development",
   "version": "1.0.1",
   "publisher": "kingxbeta",
-  "icon": "./logo.png",
+  "icon": "logo.png",
   "keywords": [
     "snippets",
     "react",
@@ -55,7 +55,7 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./"
   },
