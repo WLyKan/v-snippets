@@ -10,6 +10,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 # Released
 
+[1.0.2] - 2020-10-24
+
+- Happy programmer's day.
+
 [1.0.1] - 2020-10-23
 
 - Initial release.
