@@ -1,6 +1,6 @@
 {
   "typeScriptReactClassComponent": {
-    "prefix": "tsrcc",
+    "prefix": "rccts",
     "body": [
       "import React, { Component } from 'react'",
       "",
@@ -27,7 +27,7 @@
     "description": "Creates a React component class with ES7 module system and TypeScript interfaces"
   },
   "typeScriptReactClassExportComponent": {
-    "prefix": "tsrce",
+    "prefix": "rcets",
     "body": [
       "import React, { Component } from 'react'",
       "",
@@ -56,7 +56,7 @@
     "description": "Creates a React component class with ES7 module system and TypeScript interfaces"
   },
   "typeScriptReactFunctionalExportComponent": {
-    "prefix": "tsrfce",
+    "prefix": "rfcets",
     "body": [
       "import React, { ReactElement } from 'react'",
       "",
@@ -78,7 +78,7 @@
     "description": "Creates a React Functional Component with ES7 module system and TypeScript interface"
   },
   "typeScriptReactFunctionalComponent": {
-    "prefix": "tsrfc",
+    "prefix": "rfcts",
     "body": [
       "import React, { ReactElement } from 'react'",
       "",
@@ -98,7 +98,7 @@
     "description": "Creates a React Functional Component with ES7 module system and TypeScript interface"
   },
   "typeScriptReactArrowFunctionExportComponent": {
-    "prefix": "tsrafce",
+    "prefix": "rafcets",
     "body": [
       "import React from 'react'",
       "",
@@ -120,7 +120,7 @@
     "description": "Creates a React Arrow Function Component with ES7 module system and TypeScript interface"
   },
   "typeScriptReactArrowFunctionComponent": {
-    "prefix": "tsrafc",
+    "prefix": "rafcts",
     "body": [
       "import React from 'react'",
       "",
@@ -140,7 +140,7 @@
     "description": "Creates a React Arrow Function Component with ES7 module system and TypeScript interface"
   },
   "typeScriptReactClassPureComponent": {
-    "prefix": "tsrpc",
+    "prefix": "rpcts",
     "body": [
       "import React, { PureComponent } from 'react'",
       "",
@@ -162,7 +162,7 @@
     "description": "Creates a React pure component class with ES7 module system and TypeScript interface"
   },
   "typeScriptReactClassExportPureComponent": {
-    "prefix": "tsrpce",
+    "prefix": "rpcets",
     "body": [
       "import React, { PureComponent } from 'react'",
       "",
@@ -186,7 +186,7 @@
     "description": "Creates a React pure component class with ES7 module system and TypeScript interface"
   },
   "typeScriptReactFunctionMemoComponent": {
-    "prefix": "tsrmc",
+    "prefix": "rmcts",
     "body": [
       "import React, { memo } from 'react'",
       "",
@@ -206,7 +206,7 @@
     "description": "Creates a React Memo Function Component with ES7 module system and TypeScript interface"
   },
   "typeScriptReactClassCompomentRedux": {
-    "prefix": "tsrcredux",
+    "prefix": "rcreduxts",
     "body": [
       "import React, { Component } from 'react'",
       "import { connect } from 'react-redux'",
@@ -244,7 +244,7 @@
     "description": "Creates a React component class with PropTypes with connected redux and ES7 module system and TypeScript interfaces"
   },
   "typescriptReactNativeArrowFunctionComponent": {
-    "prefix": "tsrnf",
+    "prefix": "rnfts",
     "body": [
       "import React from 'react'",
       "import { View, Text } from 'react-native'",
@@ -267,7 +267,7 @@
     "description": "Creates a React Native Arrow Function Component with ES7 module system and TypeScript interface"
   },
   "typescriptReactNativeArrowFunctionComponentNamedProps": {
-    "prefix": "tsrnfi",
+    "prefix": "rnfits",
     "body": [
       "import React from 'react'",
       "import { View } from 'react-native'",
@@ -290,7 +290,7 @@
     "description": "Creates a React Native Arrow Function Component with ES7 module system and named TypeScript interface"
   },
   "typescriptReactNativeArrowFunctionComponentWithStyles": {
-    "prefix": "tsrnfs",
+    "prefix": "rnfsts",
     "body": [
       "import React from 'react'",
       "import { StyleSheet, Text, View } from 'react-native'",
@@ -315,11 +315,11 @@
     "description": "Creates a React Native Arrow Function Component with ES7 module system, TypeScript interface and StyleSheet"
   },
   "Export interface": {
-    "prefix": "expint",
+    "prefix": "expi",
     "body": ["export interface ${1:${TM_FILENAME_BASE}} {$0}"]
   },
   "Export type": {
-    "prefix": "exptp",
+    "prefix": "expt",
     "body": ["export type ${1:${TM_FILENAME_BASE}} = {$0}"]
   }
 }

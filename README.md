@@ -1,7 +1,7 @@
 # v-snippets README
 
 Making my own snippets without waiting for PR permission.
-[find me in the marketplace](https://marketplace.visualstudio.com/items?itemName=kingxbeta.v-snippets)
+[find me in the marketplace](https://marketplace.visualstudio.com/items?itemName=kingxbeta.v-snippets).
 
 ## Features
 
