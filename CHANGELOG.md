@@ -10,6 +10,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 # Released
 
+[1.1.0] - 2020-10-27
+
+- update readme, add user guide.
+
+[1.0.4] - 2020-10-27
+
+- optimize prefix.
+
 [1.0.3] - 2020-10-27
 
 - Fix bugs, reorganize snippets.

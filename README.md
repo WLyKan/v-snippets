@@ -17,13 +17,26 @@ For example if there is an image subfolder under your extension project workspac
 
 ### snippets glance
 
+> ⬇ react hooks
+
 | Trigger  | Content |
 | :------- | ------- |
 | `usRef→`   | `const ref = useRef(initialValue)` |
 | `usMemo→`   | `useMemo(() => function, input)` |
-| `usState→`   | `const [state, setstate] = useState(initialState)`|
+| `usState→`   | input state hook rapidly`const [state, setstate] = useState(initialState)`|
 | `usContext→`   | `const context = useContext(contextValue)` |
 | `usReducer→`   | `const [state, dispatch] = useReducer(reducer, initialState, init)` |
+...
+
+> ⬇ ES snippets
+
+| Trigger  | Content |
+| :------- | ------- |
+| `clo→`   | `console.log('object :>> ', object);` |
+| `dob→`   | Creates and assigns a local variable using object destructing`const {propertyName} = objectToDestruct` |
+| `dar→`   | Creates and assigns a local variable using array destructing`const [propertyName] = arrayToDestruct`|
+| `anfn→`   | Creates an anonymous function in ES syntax`(params) => { }` |
+| `nfn→`   | Creates a named function in ES7 syntax`const name = (params) => { }` |
 
 more to explore...
 
