@@ -2,7 +2,7 @@
   "name": "v-snippets",
   "displayName": "ES snippets",
   "description": "the one es snippets extension for ES development",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "kingxbeta",
   "icon": "logo.png",
   "keywords": [

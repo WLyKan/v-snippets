@@ -1513,8 +1513,75 @@
     "prefix": "useDispatch",
     "body": ["const dispatch = useDispatch(${1:function})"]
   },
-  "typeof": {
-    "prefix": "tpf",
-    "body": ["typeof ${0}"]
+  "querySelector": {
+    "prefix": "qs",
+    "body": ["${1:document}.querySelector('${2:selector}');"],
+    "description": "Code snippet for \"querySelector\""
+  },
+  "querySelectorAll": {
+    "prefix": "qsa",
+    "body": ["${1:document}.querySelectorAll('${2:selector}');"],
+    "description": "Code snippet for \"querySelectorAll\""
+  },
+  "anonymous function": {
+    "prefix": "afn",
+    "body": ["function(${1:arguments}) {", "\t${2:// body}", "}"],
+    "description": "Code snippet for anonymous function"
+  },
+  "function": {
+    "prefix": "nf",
+    "body": [
+      "function ${1:methodName} (${2:arguments}) {",
+      "\t${3:// body}",
+      "}"
+    ],
+    "description": "Code snippet for function"
+  },
+  "prototype": {
+    "prefix": "pr",
+    "body": [
+      "${1:object}.prototype.${2:method} = function(${3:arguments}) {",
+      "\t${4:// body}",
+      "}"
+    ],
+    "description": "Code snippet for prototype"
+  },
+  "immediately-invoked function expression": {
+    "prefix": "iife",
+    "body": [
+      "(function(${1:window}, ${2:document}) {",
+      "\t${3:// body}",
+      "})(${1:window}, ${2:document});"
+    ],
+    "description": "Code snippet for immediately-invoked function expression"
+  },
+  "function call": {
+    "prefix": "call",
+    "body": ["${1:method}.call(${2:context}, ${3:arguments});"],
+    "description": "Code snippet for function call"
+  },
+  "function apply": {
+    "prefix": "apply",
+    "body": ["${1:method}.apply(${2:context}, [${3:arguments}]);"],
+    "description": "Code snippet for function apply"
+  },
+  "function as a property of an object": {
+    "prefix": "ofn",
+    "body": [
+      "${1:functionName}: function(${2:arguments}) {",
+      "\t${3:// body}",
+      "}"
+    ],
+    "description": "Code snippet for function as a property of an object"
+  },
+  "JSON.parse": {
+    "prefix": "jp",
+    "body": ["JSON.parse(${1:obj});"],
+    "description": "Code snippet for 'JSON.parse'"
+  },
+  "JSON.stringify": {
+    "prefix": "js",
+    "body": ["JSON.stringify(${1:obj});"],
+    "description": "Code snippet for 'JSON.stringify'"
   }
 }

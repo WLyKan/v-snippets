@@ -10,6 +10,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 # Released
 
+[1.0.3] - 2020-10-27
+
+- Fix bugs, reorganize snippets.
+
 [1.0.2] - 2020-10-24
 
 - Happy programmer's day.
