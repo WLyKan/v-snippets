@@ -5,7 +5,7 @@
     "description": "Imports entire module statement in ES6 syntax"
   },
   "importNoModuleName": {
-    "prefix": "imn",
+    "prefix": "impn",
     "body": "import '${1:module}'$0",
     "description": "Imports entire module in ES6 syntax without module name"
   },
@@ -15,22 +15,22 @@
     "description": "Imports only a portion of the module in ES6 syntax"
   },
   "importEverything": {
-    "prefix": "ime",
+    "prefix": "impe",
     "body": "import * as ${2:alias} from '${1:module}'$0",
     "description": "Imports everything as alias from the module in ES6 syntax"
   },
   "importAs": {
-    "prefix": "ima",
+    "prefix": "impas",
     "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}'$0",
     "description": "Imports a specific portion of the module by assigning a local alias in ES6 syntax"
   },
   "require": {
-    "prefix": "rqr",
+    "prefix": "rq",
     "body": "require('${1:package}')",
     "description": "Require a package"
   },
   "requireToConst": {
-    "prefix": "req",
+    "prefix": "rqc",
     "body": "const ${1:packageName} = require('${1:package}')$0",
     "description": "Require a package to const"
   },
